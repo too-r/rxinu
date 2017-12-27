@@ -33,12 +33,10 @@ serial = []
 vga = []
 
 [dev-dependencies.test]
-#git = "https://github.com/japaric/utest"
-path = "/home/rob/utest"
+git = "https://github.com/japaric/utest"
 
 [dev-dependencies.utest-macros]
-#git = "https://github.com/japaric/utest"
-path = "/home/rob/utest/macros"
+git = "https://github.com/japaric/utest"
 
 [dev-dependencies.utest_rxinu]
 path = "utest-rxinu"
