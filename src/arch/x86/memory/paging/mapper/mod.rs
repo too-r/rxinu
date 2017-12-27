@@ -44,8 +44,8 @@ mod tests {
 
     #[test]
     fn map() {
-        use memory::paging::page::Page;
-        use memory::paging::entry::EntryFlags;
+        use arch::x86::memory::paging::page::Page;
+        use arch::x86::memory::paging::entry::EntryFlags;
 
         let page_table = unsafe { Mapper::new() };
 
@@ -96,8 +96,8 @@ mod tests {
 
     #[test]
     fn unmap() {
-        use memory::paging::page::Page;
-        use memory::paging::entry::EntryFlags;
+        use arch::x86::memory::paging::page::Page;
+        use arch::x86::memory::paging::entry::EntryFlags;
 
         let page_table = unsafe { Mapper::new() };
 

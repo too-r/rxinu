@@ -1,10 +1,4 @@
-[target.i686-rxinu.dependencies]
-alloc = {}
-
-[target.x86_64-rxinu.dependencies]
-alloc = {}
-
-[dependencies.core]
+[dependencies.alloc]
 stage = 0
 
 [dependencies.compiler_builtins]

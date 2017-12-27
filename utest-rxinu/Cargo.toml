@@ -1,0 +1,8 @@
+[package]
+name = "utest_rxinu"
+version = "0.1.0"
+authors = ["Rob Gries <robert.w.gries@gmail.com>"]
+
+[dependencies]
+sc = "0.2.0"
+rlibc = "1.0.0"
